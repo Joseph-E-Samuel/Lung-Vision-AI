@@ -1,0 +1,81 @@
+# Ignore the environment settings and configuration
+.env
+*.env
+.env.*
+
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pyo
+
+# Django specific
+db.sqlite3
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.mo
+*.so
+*.pyd
+*.pyo
+__pycache__/
+*.coverage
+.coverage.*
+
+# Media and static files
+/media/
+/staticfiles/
+/static/
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+
+# Ignore local settings
+brain_cancer_identification/settings_local.py
+brain_cancer_identification/settings/*
+
+# Node.js related
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# VS Code settings
+.vscode/
+
+# JetBrains (PyCharm) IDE
+.idea/
+
+# macOS related files
+.DS_Store
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.orig
+*.~*
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore migrations
+brain_cancer/migrations/
+brain_cancer_venv/*
+
+brain_cancer_identification/migrations/
+
+# Ignore Django's secret key file
+secret_key.txt
